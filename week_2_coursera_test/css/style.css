@@ -1,0 +1,95 @@
+/* Responsive Design Code begins*/
+@media (min-width: 992px){
+  .col-lg-4{
+    width: 32%;
+    display: inline;
+    float: left;
+  }
+}
+
+
+@media (max-width: 991px) and (min-width: 768px){
+  .col-md-6{
+    width: 48.5%;
+    display: inline;
+    float: left;
+  }
+  .col-md-12{
+    width: 98.25%;
+    display: inline;
+    float: left;
+  }
+}
+
+
+@media (max-width: 767px){
+  .col-sm-12{
+    width: 100%;
+    display: inline;
+    float: left;
+  }
+}
+
+/* Responsive Design Code ends*/
+
+/* Page Style Code begins*/
+.main{
+  font-family: Monaco, sans-serif;
+  margin-left: -2.8%;
+  margin-right: 0.6%;
+  box-sizing: content-box;
+}
+header h1{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.body ul{
+   margin-top: 50px;
+}
+
+.body ul li{
+  list-style: none;
+  display: inline;
+  border: 1px solid #000000;
+  margin-bottom: 33px;
+  background: #999999;
+}
+
+#chicken{
+  background: #DD9397;
+}
+
+#beef{
+  background: #CE3140;
+}
+
+#sushi{
+  background: #E5D495;
+}
+
+.body ul li:nth-child(1){
+  margin-right: 1.1%;
+}
+
+.body ul li:nth-child(2){
+  margin-right: 1.1%;
+}
+.body ul li p:nth-child(1){
+  float: right;
+  font-size: 24px;
+  padding: 0px 25px 7px 25px;
+  border: 1px solid #000000;
+  margin-top: 0px;
+}
+
+.body ul li .span{
+  clear: both;
+  margin-top: 20px;
+  padding: 0px 10px 10px 10px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* Page Style Code begins*/
